@@ -1,17 +1,16 @@
-import CartWidget from "../CartWidget/cartWidget"
+import CartWidget from "../CartWidget/CartWidget"
+import "./NavBar.css"
 
 function NavBar() {
   return (
     <nav>
-        <div>
-            <ul>
-                <li><a href="">Products</a></li>
-                <li><a href="">Us</a></li>
-            </ul>
-        </div>
-        <div>
-            <a href="index.html">Alexis Store</a>
-        </div>
+        <ul>
+          <li><a href="" className="menu">Products</a></li>
+          <li><a href="" className="menu">Us</a></li>
+          <li><a href="index.html" className="logo">Alexis Store</a></li> 
+          <li><a href="" className="menu">Contact</a></li>
+        </ul>
+        <CartWidget/>
     </nav>
   )
 }
