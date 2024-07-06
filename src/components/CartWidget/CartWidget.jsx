@@ -1,7 +1,10 @@
+import "./CartWidget.css"
 
 function CartWidget() {
   return (
-    <div>cartWidget</div>
+    <>
+      <a href="" className="cart">0</a>
+    </>
   )
 }
 

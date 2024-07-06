@@ -9,8 +9,8 @@ function NavBar() {
           <li><a href="" className="menu">Us</a></li>
           <li><a href="index.html" className="logo">Alexis Store</a></li> 
           <li><a href="" className="menu">Contact</a></li>
+          <li><CartWidget/></li>
         </ul>
-        <CartWidget/>
     </nav>
   )
 }

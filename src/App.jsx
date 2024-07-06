@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header/>
-      <ItemListContainer/>
+      <ItemListContainer greetings={"Welcome to my awesome shop"}/>
     </>
   )
 }

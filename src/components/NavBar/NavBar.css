@@ -22,7 +22,8 @@ nav ul li{
     text-decoration: none;
     color: white;
     align-items: center;
-    padding: 29px 0;
+    padding: 29px 29px;
+    transition: all 0.5s ease;
 }
 .logo{
     font-family: Sacramento, sans-serif;
@@ -30,12 +31,18 @@ nav ul li{
     color: white;
     background-image: url(../../assets/logo.png);
     background-size: contain;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
     background-repeat: no-repeat;
     background-position: center;
     font-size: 40px;
+    transition: all 0.5s ease;
 }
 .menu:hover{
     color: black;
     background-color: white;
+    transition: all 0.5s ease;
+}
+.logo:hover{
+    padding: 20px 0;
+    transition: all 0.5s ease;
 }
